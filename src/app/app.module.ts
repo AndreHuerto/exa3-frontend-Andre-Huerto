@@ -15,6 +15,7 @@ import { ProductoComponent } from './components/producto/producto.component';
 import { InterceptorService } from './interceptores/interceptor.service';
 import { UploadsComponent } from './components/uploads/uploads.component';
 import { InterceptorErrorService } from './interceptores/interceptorerror.service';
+import { GerenteComponent } from './components/Gerente/gerente/gerente.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { InterceptorErrorService } from './interceptores/interceptorerror.servic
     ListarComponent,
     LoginComponent,
     ProductoComponent,
-    UploadsComponent
+    UploadsComponent,
+    GerenteComponent
   ],
   imports: [
     CommonModule,
